@@ -31,4 +31,4 @@ https://github.com/NewPrototype/electron-tallyBook-server
 
 - mongodb（数据库） 官方链接https://www.mongodb.com/
 - Roto（数据库可视化工具） 下载地址 https://robomongo.org/
-- mongoose (mongodb 框架) 官方文档 http://mongoosejs.com/
+- mongoose (mongodb 框架) 官方文档 http://mongoosejs.com/

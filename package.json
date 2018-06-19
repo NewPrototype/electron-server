@@ -8,8 +8,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "jsonwebtoken": "^8.3.0",
     "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
     "koa-cors": "^0.0.16",
+    "koa-jwt": "^3.3.2",
     "koa-router": "^7.4.0",
     "mongoose": "^5.1.5"
   },

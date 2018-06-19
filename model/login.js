@@ -10,7 +10,7 @@ var Schema = mongoose.Schema;
 
 var loginSchema = new Schema({
   userName: { type: String },
-  password: { type: Number },
+  password: { type: String },
 });
 
 var Login = mongoose.model('Login', loginSchema);

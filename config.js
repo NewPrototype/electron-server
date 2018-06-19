@@ -4,5 +4,6 @@ const mongodb = {
 
 module.exports = {
   mongodb,
-  serverPort:3000,
+  serverPort: 3000,
+  token: 'tallyBook',
 };

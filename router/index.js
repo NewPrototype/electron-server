@@ -7,7 +7,10 @@ const login = require('./../controller/login');
 
 
 router.get('/', (ctx, next) => {
-  ctx.body = 'hi koa2'
-}).get('/login', login.getLogin);
+
+}).get('/login', login.getLogin).get('/getlogin', (ctx)=>{
+  ctx.response.body = { code: 1, message: "检查成功", result: {} }
+});
+
 
 module.exports = router;
