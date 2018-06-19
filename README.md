@@ -8,7 +8,7 @@
 - koa2
 - mongoose
 
-一个 window,mac的桌面应用，这个是node
+一个 window,mac 的桌面应用，这个是 node 端
 
 ### web 端 gitHub
 
@@ -27,4 +27,8 @@ https://github.com/NewPrototype/electron-tallyBook-server
 - 启动 web 端 webpack `npm run start`
 - 启动 web 端桌面 `npm run dev`
 
+### 配置
 
+- mongodb（数据库） 官方链接https://www.mongodb.com/
+- Roto（数据库可视化工具） 下载地址 https://robomongo.org/
+- mongoose ( 封装的 mongodb 框架) 官方文档 http://mongoosejs.com/
