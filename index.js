@@ -2,7 +2,9 @@ const Koa = require('koa');
 const config = require('./config');
 const { token, serverPort } = config;
 const app = new Koa();
-var cors = require('koa-cors');
+const convert = require('koa-convert');
+
+var cors = require('koa2-cors');
 const bodyParser = require('koa-bodyparser');
 const jwt = require('jsonwebtoken');
 const jwtKoa = require('koa-jwt');

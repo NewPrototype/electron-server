@@ -7,9 +7,16 @@ const config= require('./../config');
 
 
 async function getLogin(ctx) {
+  
+
 
   const { userName, password } = ctx.request.query;
   let login = new Login({ userName, password });
+  // Login.create(login, (err,docs) => {  //数据库添加数据
+  //   console.log(err)
+  //   console.log(docs)
+  // })
+  // console.log(login,'----')
   let auto = await Login.findOne({ userName, password });
   let userToken = {
     userName: userName
